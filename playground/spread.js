@@ -17,7 +17,6 @@
 
 var person = ['Saji',25];
 var personTwo = ['Jen',29];
-//Hi Saji,you are 25
 function greet(name,age){
   console.log('Hi ' + name + ', you are ' + age);
 }
@@ -27,7 +26,9 @@ greet(...personTwo);  //Hi Jen, you are 29
 
 var names = ['Mike','Ben'];
 var final = ['saji',...names];
-//Hi Saji
 final.forEach(function(name){
   console.log('Hi ' + name);
 });
+//Hi saji
+//Hi Mike
+//Hi Ben
